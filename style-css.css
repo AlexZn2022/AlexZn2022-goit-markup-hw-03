@@ -76,8 +76,10 @@ img {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
+/*------------HEADER--------------*/
 .header {
   border-width: 0 0 1px 0;
   border-color: #ececec;
@@ -174,6 +176,8 @@ img {
   margin-right: 50px;
 }
 
+/*----------------HERO-------------------*/
+
 .hero {
   text-align: center;
   margin-top: 0;
@@ -229,6 +233,8 @@ img {
   margin: -1px;
 }
 
+/*----------SECTION-FEATURE---------*/
+
 .feature-title {
   font-weight: 700;
   line-height: 1.14;
@@ -266,6 +272,8 @@ img {
   height: 72px;
 }
 
+/*------------SECTION-WHAT-WE-DO------------*/
+
 .what_we_do-title {
   text-align: center;
   font-weight: 700;
@@ -281,6 +289,8 @@ img {
   margin-bottom: 118px;
   gap: 30px;
 }
+
+/*------------SECTION-TEAM------------*/
 
 .section-team {
   background: var(--portfolio-buttons-color);
@@ -325,6 +335,8 @@ img {
   margin-bottom: 30px;
 }
 
+/*--------------FOOTER---------*/
+
 .footer {
   min-height: 252px;
   background-color: var(--dark-background-color);
@@ -340,9 +352,31 @@ img {
   color: var(--secondary-elements-color);
 }
 
+.footer .logo {
+  padding-top: 60px;
+  padding-bottom: 11px;
+}
+
+.part-logo-white {
+  color: var(--header-background-color);
+}
+
+.footer-list > li {
+  padding-top: 9px;
+}
+
+/*--------------PORTFOLIO------------*/
+
+.portfolio-section {
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--header-background-color);
+}
+
 .buttons-list {
   margin-top: 95px;
   margin-bottom: 0;
+  display: flex;
 }
 
 .portfolio-buttons {
@@ -359,6 +393,16 @@ img {
   padding: 6px 22px;
 }
 
+.buttons-list {
+  align-items: center;
+  margin-left: 297px;
+  margin-right: 298px;
+}
+
+.button-web-site {
+  min-width: 128px;
+}
+
 .portfolio-buttons:first-child {
   padding: 6px 25px;
 }
@@ -369,13 +413,25 @@ img {
   color: var(--header-background-color);
 }
 
-.portfolio-section {
-  background: var(--header-background-color);
+.portfolio-buttons {
+  margin-right: 8px;
+  height: 38px;
 }
 
 .img-list {
   margin-top: 56px;
   margin-bottom: 94px;
+}
+
+.img-list-item {
+  border: 1px solid #eeeeee;
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.img-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .project-title {
@@ -390,17 +446,4 @@ img {
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-text-color);
-}
-
-.footer .logo {
-  padding-top: 60px;
-  padding-bottom: 11px;
-}
-
-.part-logo-white {
-  color: var(--header-background-color);
-}
-
-.footer-list > li {
-  padding-top: 9px;
 }
