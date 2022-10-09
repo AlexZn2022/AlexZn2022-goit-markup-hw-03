@@ -182,7 +182,7 @@ img {
 .hero {
   text-align: center;
   margin-top: 0;
-  padding: 200px 452px 280px;
+  padding-bottom: 200px;
   background: var(--dark-background-color);
 }
 
@@ -190,10 +190,11 @@ img {
   font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
-  text-align: center;
   text-transform: uppercase;
+  margin: 0 auto;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  padding-top: 200px;
   width: 696px;
   color: var(--header-background-color);
 }
@@ -202,12 +203,12 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  display: inline-block;
   align-items: center;
   cursor: pointer;
   letter-spacing: 0.06em;
   line-height: 1.87;
   padding: 10px 32px;
+  min-width: 213px;
   margin-top: 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background: var(--secondary-elements-color);
