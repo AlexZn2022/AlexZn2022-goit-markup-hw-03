@@ -181,7 +181,7 @@ img {
 
 .hero {
   text-align: center;
-  margin-top: 0;
+  padding-top: 200px;
   padding-bottom: 200px;
   background: var(--dark-background-color);
 }
@@ -194,7 +194,6 @@ img {
   margin: 0 auto;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  padding-top: 200px;
   width: 696px;
   color: var(--header-background-color);
 }
@@ -272,6 +271,10 @@ img {
 
 /*------------SECTION-WHAT-WE-DO------------*/
 
+.section-what_we_do {
+  padding-top: 0;
+}
+
 .what_we_do-title {
   text-align: center;
   font-weight: 700;
@@ -283,7 +286,6 @@ img {
 
 .what_we_do-img-list {
   display: flex;
-  margin-bottom: 118px;
   gap: 30px;
 }
 
@@ -322,13 +324,16 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   color: var(--main-title-color);
 }
 .team-position {
   font-size: 16px;
   line-height: 1.18;
+}
+
+.team-member-description {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -363,21 +368,12 @@ img {
 
 .footer-list {
   line-height: 1.71;
-  margin-top: 20px;
 }
 
 /*--------------PORTFOLIO------------*/
 
 .portfolio-section {
-  margin-left: auto;
-  margin-right: auto;
   background: var(--header-background-color);
-}
-
-.buttons-list {
-  padding-top: 95px;
-  padding-bottom: 0;
-  display: flex;
 }
 
 .portfolio-buttons {
@@ -395,9 +391,9 @@ img {
 }
 
 .buttons-list {
-  align-items: center;
-  margin-left: 297px;
-  margin-right: 298px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .button-web-site {
@@ -414,18 +410,12 @@ img {
   color: var(--header-background-color);
 }
 
-.portfolio-buttons {
-  margin-right: 8px;
-  height: 38px;
-}
-
 .img-list {
   margin-top: 56px;
   margin-bottom: 94px;
 }
 
 .img-list-item {
-  border: 1px solid #eeeeee;
   flex-basis: calc((100% - 60px) / 3);
 }
 
@@ -441,10 +431,16 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
+  margin-bottom: 4px;
 }
 
 .project-type {
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-text-color);
+}
+
+.project-description {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
