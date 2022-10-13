@@ -105,7 +105,6 @@ img {
 
 .header-container {
   display: flex;
-  height: 80px;
 }
 
 .navigation {
@@ -170,6 +169,10 @@ img {
 .contacts-list {
   display: flex;
   margin-left: auto;
+}
+.contacts-link-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts-link-item:first-child {
@@ -361,7 +364,7 @@ img {
   color: var(--header-background-color);
 }
 
-.contact-items:not(:first-child) {
+.footer-contact-items:not(:first-child) {
   margin-top: 9px;
 }
 
